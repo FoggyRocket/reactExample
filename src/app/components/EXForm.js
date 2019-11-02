@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, FormInput, FormGroup,Button } from "shards-react";
 
-export default function EXForm({handleChange,onPress,username,password}=this.props) {
+export default function EXForm({handleChange,onPress,username,password,data}=this.props) {
   return (
     <Form>
       <FormGroup>
